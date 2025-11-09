@@ -1,0 +1,562 @@
+{
+  "summary": {
+    "total_files": 12,
+    "total_unique_strings": 36
+  },
+  "files": {
+    "admission.html": {
+      "type": "HTML",
+      "matches": 613,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "t-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-t",
+          "position": 26872
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "r-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[da",
+          "position": 26897
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Te",
+          "position": 26924
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": ")}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[d",
+          "position": 26951
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "pe=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=T",
+          "position": 26978
+        }
+      ]
+    },
+    "book-a-tour.html": {
+      "type": "HTML",
+      "matches": 454,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": ", var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].is",
+          "position": 26647
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-co",
+          "position": 26672
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "xt-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurren",
+          "position": 26699
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-c",
+          "position": 26726
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "urrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurre",
+          "position": 26753
+        }
+      ]
+    },
+    "blog.html": {
+      "type": "HTML",
+      "matches": 449,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": ", var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].is",
+          "position": 26959
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-co",
+          "position": 26984
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "xt-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurren",
+          "position": 27011
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-c",
+          "position": 27038
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "urrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurre",
+          "position": 27065
+        }
+      ]
+    },
+    "index.html": {
+      "type": "HTML",
+      "matches": 896,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "oration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-de",
+          "position": 27016
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "k-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-",
+          "position": 27041
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "r(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurr",
+          "position": 27068
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "tion, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-componen",
+          "position": 27095
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "oration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a di",
+          "position": 27122
+        }
+      ]
+    },
+    "testimonials.html": {
+      "type": "HTML",
+      "matches": 511,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Te",
+          "position": 27088
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-fra",
+          "position": 27113
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "mer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].is",
+          "position": 27140
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "a-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-fr",
+          "position": 27167
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "t].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].i",
+          "position": 27194
+        }
+      ]
+    },
+    "privacy-policy.html": {
+      "type": "HTML",
+      "matches": 384,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurren",
+          "position": 26322
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "tion, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-componen",
+          "position": 26347
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "oration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a di",
+          "position": 26374
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ponent-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-compone",
+          "position": 26401
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurrent a s",
+          "position": 26428
+        }
+      ]
+    },
+    "contact.html": {
+      "type": "HTML",
+      "matches": 501,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Te",
+          "position": 26970
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-fra",
+          "position": 26995
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "mer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].is",
+          "position": 27022
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "a-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-fr",
+          "position": 27049
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "t].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].i",
+          "position": 27076
+        }
+      ]
+    },
+    "programs.html": {
+      "type": "HTML",
+      "matches": 809,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-compo",
+          "position": 27203
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "-framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent",
+          "position": 27228
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "n, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-t",
+          "position": 27255
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "tion)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div s",
+          "position": 27282
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ent-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-",
+          "position": 27309
+        }
+      ]
+    },
+    "gallery.html": {
+      "type": "HTML",
+      "matches": 422,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": ", var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].is",
+          "position": 26854
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-co",
+          "position": 26879
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "xt-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurren",
+          "position": 26906
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-c",
+          "position": 26933
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "urrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurre",
+          "position": 26960
+        }
+      ]
+    },
+    "parent-resources.html": {
+      "type": "HTML",
+      "matches": 547,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-compo",
+          "position": 27326
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "-framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent",
+          "position": 27351
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "n, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-t",
+          "position": 27378
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "tion)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div s",
+          "position": 27405
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ent-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-",
+          "position": 27432
+        }
+      ]
+    },
+    "fees-breakdown.html": {
+      "type": "HTML",
+      "matches": 402,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": ", var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].is",
+          "position": 26438
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-co",
+          "position": 26463
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "xt-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurren",
+          "position": 26490
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "er-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-c",
+          "position": 26517
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "urrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurre",
+          "position": 26544
+        }
+      ]
+    },
+    "about-us.html": {
+      "type": "HTML",
+      "matches": 683,
+      "samples": [
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "ration, var(--framer-link-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Te",
+          "position": 27079
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "-text-decoration, var(--framer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-fra",
+          "position": 27104
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "mer-text-decoration)))}[data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].is",
+          "position": 27131
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "a-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-fr",
+          "position": 27158
+        },
+        {
+          "pattern": "\\bchild(?:ren)?\\b",
+          "context": "t].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].i",
+          "position": 27185
+        }
+      ]
+    }
+  },
+  "strings": [
+    {
+      "file": "admission.html",
+      "tag": "p",
+      "text": "Once you've gathered all the necessary information, the next step is submitting an application. Our easy-to-follow application form helps us understand your child's needs and start the enrollment process."
+    },
+    {
+      "file": "admission.html",
+      "tag": "p",
+      "text": "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime."
+    },
+    {
+      "file": "admission.html",
+      "tag": "p",
+      "text": "Every moment in your child’s early years are crucial for their growth and development."
+    },
+    {
+      "file": "admission.html",
+      "tag": "h3",
+      "text": "Your Child’s New Journey?"
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": ">\n    \n    \n    <!-- Start of headStart -->\n    \n    <!-- End of headStart -->\n    <meta name="
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": "outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none"
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": "parent-resources.html"
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": "outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none"
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": "ve gathered all the necessary information, the next step is submitting an application. Our easy-to-follow application form helps us understand your child"
+    },
+    {
+      "file": "admission.html",
+      "tag": "string",
+      "text": "outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(255, 255, 255);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none"
+    },
+    {
+      "file": "blog.html",
+      "tag": "string",
+      "text": "blog/building-bright-futures-the-lifelong-benefits-of-early-childhood-education.html"
+    },
+    {
+      "file": "blog.html",
+      "tag": "string",
+      "text": "blog/snack-time-fun-time-healthy-snack-ideas-to-fuel-your-child-s-day.html"
+    },
+    {
+      "file": "blog.html",
+      "tag": "string",
+      "text": "blog/preparing-for-success-how-to-help-your-child-thrive-in-their-first-year-of-kindergarten.html"
+    },
+    {
+      "file": "blog.html",
+      "tag": "string",
+      "text": "blog/nurturing-young-minds-the-role-of-play-in-early-childhood-development.html"
+    },
+    {
+      "file": "index.html",
+      "tag": "string",
+      "text": "Welcome &amp; Learning"
+    },
+    {
+      "file": "privacy-policy.html",
+      "tag": "p",
+      "text": "For students under the age of 13, we will obtain verifiable parental consent before collecting personal information, in accordance with applicable privacy laws such as COPPA (Children’s Online Privacy Protection Act)."
+    },
+    {
+      "file": "privacy-policy.html",
+      "tag": "string",
+      "text": ">Communication:</strong> To inform parents/guardians about their child"
+    },
+    {
+      "file": "contact.html",
+      "tag": "string",
+      "text": "outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(0, 0, 0);transform:none"
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Our Pequeños Program offers a warm and engaging environment where young children begin to explore and make sense of the world around them. Through sensory play, music, movement, and interactive storytelling, toddlers develop early cognitive and motor skills while building strong emotional connections with peers and caregivers."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Our Preescolar Program focuses on providing a nurturing environment where young children can begin exploring the world around them. Through sensory play, storytelling, and guided activities, toddlers are encouraged to develop motor skills, language, and early social interaction"
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Social and emotional growth through group play and interaction."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "In our Programa Jardín de Infantes, we focus on fostering independence and cognitive development through playful learning experiences. By blending academic readiness with social and emotional skills, children are well-prepared for the next steps in their educational journey."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Engaging activities that promote learning through play."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Development of essential social and emotional skills."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Our Pre-K Program prepares children for a smooth transition to elementary school. With a focus on building foundational academic skills and social development, children are encouraged to explore, ask questions, and engage in group learning activities."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Play-based learning that stimulates critical thinking and curiosity."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Activities that nurture social and emotional growth through peer interaction."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "1-2 years."
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "1-2 years"
+    },
+    {
+      "file": "programs.html",
+      "tag": "p",
+      "text": "Enroll now"
+    },
+    {
+      "file": "parent-resources.html",
+      "tag": "p",
+      "text": "Stay informed about all of our school’s policies, procedures, and guidelines with our comprehensive Manual para Padres."
+    },
+    {
+      "file": "about-us.html",
+      "tag": "p",
+      "text": "The kindergarten opened its doors, starting with a small group of 30 children. The mission was to create a creative learning space for young minds."
+    },
+    {
+      "file": "about-us.html",
+      "tag": "p",
+      "text": "Brandon ensures that all learning programs are designed to foster growth."
+    },
+    {
+      "file": "about-us.html",
+      "tag": "p",
+      "text": "Physical Education Teacher"
+    },
+    {
+      "file": "about-us.html",
+      "tag": "p",
+      "text": "Supporting students' emotional and social development, providing guidance"
+    },
+    {
+      "file": "about-us.html",
+      "tag": "p",
+      "text": "Head Teacher"
+    }
+  ]
+}
