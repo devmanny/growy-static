@@ -1,0 +1,293 @@
+{
+  "javascript": {
+    "chunk-6HDAVBLT.mjs": [
+      ");let t=BigInt(e);this.writeBigUint64(t)}writeBigUint64(e){K(e,Z.BigUint64,Q.BigUint64,",
+      ")}write(e,t){let r=e,a=r+t.length,f=0,s=this.chunks.length;for(;f<s;f++){let u=this.chunks[f];if(S(u,",
+      ";)l+=i[n],++n;if((l=a(l)).length===0||!s(l))return null;let h={type:y(o),subtype:y(l),parameters:new Map};for(;n<i.length;){for(++n;f(i[n]);)++n;let v=",
+      ");let t=BigInt(e);this.writeBigInt64(t)}writeBigInt64(e){K(e,Z.BigInt64,Q.BigInt64,",
+      "(e){e.removeLeadingAndTrailingHTTPWhitespace=t=>t.replace(/^[ \\t\\n\\r]+/u,",
+      ");this._batchLoadFn=n,this._maxBatchSize=function(l){if(!(!l||l.batch!==!1))return 1;var h=l&&l.maxBatchSize;if(h===void 0)return 1/0;if(typeof h!=",
+      ");let t=M.Uint32;this.ensureBufferLength(t),this.view.setUint32(this.offset,e),this.offset+=t}writeUint64(e){K(e,Z.Uint64,Q.Uint64,",
+      "}},t);return r?.id}},Ar={exports:{enumToDisplayNameFunctions:{type:",
+      "}},t);return r?.JTlfWLRBo},async getRecordIdBySlug(e,t){let[r]=await St.query({from:{data:Ue,type:",
+      ");let t=M.Uint16;this.ensureBufferLength(t),this.view.setUint16(this.offset,e),this.offset+=t}writeUint32(e){K(e,Z.Uint32,Q.Uint32,",
+      ");let t=M.Int16;this.ensureBufferLength(t),this.view.setInt16(this.offset,e),this.offset+=t}writeInt32(e){K(e,Z.Int32,Q.Int32,",
+      ";for(;n<i.length&&i[n]!==",
+      "&&(b[Symbol.iterator]=function(){return this}),b;function I(T){return function(_){return function(m){if(v)throw TypeError(",
+      ");return f.slice(s.from,s.to)});if(r.status===206){let s=r.headers.get(",
+      ");let h=ge.encode(ye),v=n.subarray(0,l),p=ht(v,h),d=new Headers;for(let I of p){let T=or.decode(I),[_,m]=T.split(",
+      "?Number(s):null}}var lr=class{read(e,t){for(let r of this.chunks){if(e<r.start)break;if(e>r.end)continue;if(e+t>r.end)break;let a=e-r.start,f=a+t;return r.data.slice(a,f)}throw Error(",
+      "no stream handler",
+      "+h);return h}(o),this._batchScheduleFn=function(l){var h=l&&l.batchScheduleFn;if(h===void 0)return f;if(typeof h!=",
+      "),!(r>u.end)){if(r>u.start){let i=r-u.start,n=u.data.subarray(0,i);t=ct(n,t),r=u.start}break}}for(;s>f;s--){let u=this.chunks[s-1];if(S(u,",
+      ",{get:function(){return this._size},enumerable:!0,configurable:!0}),Object.defineProperty(u.prototype,"
+    ],
+    "chunk-DUJ32EDQ.mjs": [
+      "--framer-font-family",
+      ",K=x(),V=[],fe=_();return r(F,{id:i??K,children:r(ee,{animate:h,initial:!1,children:r($,{value:G,children:C(o.button,{...D,...E,className:z(q,...V,",
+      "conic-gradient(from 0deg at 50% 50%, rgba(255, 255, 255, 0) 7.208614864864882deg, rgb(255, 255, 255) 342deg)",
+      ".framer-cOt14.framer-i2c1m5, .framer-cOt14 .framer-i2c1m5 { display: block; }",
+      "Form Submit Button",
+      "conic-gradient(from 180deg at 50% 50%, #4cf 0deg, #4cf 360deg)"
+    ],
+    "chunk-VUE37PMM.mjs": [
+      "(min-width: 810px) and (max-width: 1199px)",
+      "(min-width: 1200px) and (max-width: 1439px)",
+      "Programs"
+    ],
+    "chunk-TVO7DITS.mjs": [
+      "(min-width: 810px) and (max-width: 1199px)",
+      "(min-width: 1200px) and (max-width: 1439px)",
+      "Book A Tour"
+    ],
+    "chunk-DKPJAV5M.mjs": [
+      "(min-width: 810px) and (max-width: 1199px)",
+      "(min-width: 1200px) and (max-width: 1439px)"
+    ],
+    "UMlwgd7vp9rRAMmvZUpUwBvPFqV0owMFZPCUKHtrkzs.V4LSOUAD.mjs": [
+      ",_e),ref:i??qe,style:{...Le},children:[e(p,{breakpoint:x,overrides:{b5X3Ub3Ze:{y:void 0},h1mBf6nSA:{y:void 0}},children:e(S,{height:76,width:",
+      ",y:982.4,children:e(C,{className:",
+      "(min-width: 1200px) and (max-width: 1439px)",
+      ",children:[e(p,{breakpoint:x,overrides:{h1mBf6nSA:{background:{alt:",
+      "(min-width: 810px) and (max-width: 1199px)",
+      ",a.viewport)}let B=a.bodyClassName;if(B){let u=document.body;u.classList.forEach(d=>d.startsWith(",
+      "Blog Content",
+      "}},or=M(function(r,i){let{activeLocale:m,setLocale:o}=$(),l=re(),[t]=E({from:{alias:",
+      "}},children:e(L,{height:",
+      ";let l=i.display?i.display:",
+      ",variantClassNames:rr},children:c(A,{id:R??Oe,children:[c(O.div,{...Te,className:z(De,...G,",
+      ",framerDisplayContentsDiv:",
+      "),e(A,{id:`q_jIXuwSQ-${J}`,children:e(oe.Provider,{value:{JTlfWLRBo:f},children:c(",
+      ",children:e(p,{breakpoint:x,overrides:{b5X3Ub3Ze:{variant:",
+      ",...g(u)}}},children:e(P,{background:{alt:",
+      ".framer-XrX80.framer-6fsqsp, .framer-XrX80 .framer-6fsqsp { display: block; }",
+      ",y:0,children:e(C,{className:",
+      "?{src:r}:void 0,tr=({query:r,pageSize:i,children:m})=>{let o=E(r);return m(o)},N=F(),nr={Desktop:",
+      "Building Bright Futures: The Lifelong Benefits of Early Childhood Education",
+      "}},children:e(_,{C638fPeBN:"
+    ],
+    "chunk-HKYZ3NDR.mjs": [
+      "Privacy Policy",
+      "(min-width: 810px) and (max-width: 1199px)",
+      "(min-width: 1200px) and (max-width: 1439px)"
+    ],
+    "chunk-BTO2IEVM.mjs": [
+      "(min-width: 810px) and (max-width: 1199px)",
+      "Testimonials",
+      "(min-width: 1200px) and (max-width: 1439px)"
+    ],
+    "chunk-OBPM43HM.mjs": [
+      "School Card",
+      ".framer-FL2qr.framer-s4js9n, .framer-FL2qr .framer-s4js9n { display: block; }",
+      "En este programa, nos enfocamos en nutrir un ambiente seguro, protegido y estimulante donde los niños pequeños puedan explorar su mundo.",
+      "En este programa, nos enfocamos en fomentar un ambiente seguro, protegido y estimulante donde los niños pequeños puedan explorar su mundo.",
+      ",ne=V(),oe=[Q,H,K],m=B();return e(D,{id:w??ne,children:e(me,{animate:R,initial:!1,children:e(fe,{value:de,children:_(o.div,{...b,...re,className:T(le,...oe,",
+      "}}},i,U)}),e(v,{__fromCanvasComponent:!0,children:e(c,{children:e(o.h5,{className:"
+    ],
+    "gS0s_m2wX-2-ZFO7FUDW.mjs": [
+      ",{children:",
+      "})}),c=a(e,{children:a(",
+      "})}),h=a(e,{children:a("
+    ]
+  },
+  "html": {
+    "admission.html": [
+      "Explorar Programas",
+      "El primer paso en nuestro proceso de admisión es contactarnos. Ya sea por teléfono, correo electrónico o visita en persona, brindamos toda la información esencial sobre nuestro jardín infantil y sus programas.",
+      "admission.html",
+      "Program Fees",
+      "After receiving your application, we schedule a counselling session to discuss your child's unique requirements, learning style, and how our programs can support their growth in a nurturing environment.",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development."
+    ],
+    "book-a-tour.html": [
+      "Explorar Programas",
+      "Growy ofrece un entorno de aprendizaje nutritivo y creativo para niños pequeños, fomentando el crecimiento, la exploración y la educación temprana.",
+      "book-a-tour.html",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "admissions@nyc.edu",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "Blogs"
+    ],
+    "blog.html": [
+      "Explorar Programas",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Read more",
+      "Programas",
+      "Reservar una Visita",
+      "Blogs",
+      "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "Contacto"
+    ],
+    "index.html": [
+      "Growy offers a nurturing and creative learning environment for young children, fostering growth, exploration, and early education.",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Growy School !!",
+      "Contacto",
+      "Nuestro programa Preescolar combina el aprendizaje basado en el juego con actividades estructuradas para ayudar a los niños a desarrollar habilidades fundamentales.",
+      "Your Child’s New Journey?",
+      "Nuestro programa Preescolar combina el aprendizaje basado en el juego con actividades estructuradas para ayudar a los niños a desarrollar habilidades fundamentales.Nuestro programa Preescolar combina el aprendizaje basado en el juego con actividades estructuradas para ayudar a los niños a desarrollar habilidades fundamentales.",
+      "este programa está diseñado para preparar a los niños para una transición suave a la escuela primaria. Nos enfocamos en mejorar las habilidades de los niños.",
+      "Pre - School Program",
+      "Explorar Programas"
+    ],
+    "testimonials.html": [
+      "Explorar Programas",
+      "Video Testimonials",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Nuestro programa Preescolar combina el aprendizaje basado en el juego con actividades estructuradas para ayudar a los niños a desarrollar habilidades fundamentales.Nuestro programa Preescolar combina el aprendizaje basado en el juego con actividades estructuradas para ayudar a los niños a desarrollar habilidades fundamentales.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "Jardín de Infantes Program",
+      "Blogs"
+    ],
+    "privacy-policy.html": [
+      "We do not sell personal information to third parties. However, we may share information in the following cases:",
+      "Name, address, contact details, employment records, educational qualifications, and criminal background checks (if required by law).",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "To deliver and improve our educational programs and services.",
+      "3. Sharing of Information",
+      "We use the information we collect for various purposes, including:",
+      "Information about how our website, apps, or digital platforms are accessed and used. This includes IP addresses, browser types, device information, and usage patterns (cookies).",
+      "Providing Educational Services:",
+      "We take appropriate administrative, technical, and physical safeguards to protect the personal information we collect. This includes encryption, firewalls, secure servers, and strict access controls.",
+      "To protect the safety of students, staff, or others in emergency situations."
+    ],
+    "contact.html": [
+      "hello@kinderly.com",
+      "Explorar Programas",
+      "Krakow, Poland",
+      "School",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "contact.html",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development."
+    ],
+    "programs.html": [
+      "Creative &amp; Active Learning Classes",
+      "Strengthen friendships with games.",
+      "Sensory play activities to stimulate curiosity.",
+      "School",
+      "Boost your energy and feel great with fun",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Early social interaction through group play and collaborative activities.",
+      "School Drop",
+      "Contacto",
+      "Program Offerings"
+    ],
+    "gallery.html": [
+      "Explorar Programas",
+      "Video Gallery",
+      "Image Gallery",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "Blogs",
+      "gallery.html"
+    ],
+    "parent-resources.html": [
+      "Caterpillar-themed crafts",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Sharing and storytelling",
+      "Stay informed about all of our school’s policies, procedures, and guidelines with our comprehensive Parent Handbook.",
+      "Contacto",
+      "Weekly Meal Plan",
+      "Our Newsletter",
+      "Stimulating sensory activities to foster curiosity and exploration.",
+      "Calendario Escolar",
+      "Check out our nutritious meal plan to see what your child will be eating at school this week."
+    ],
+    "fees-breakdown.html": [
+      "Explorar Programas",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Fees Breakdown",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "Blogs",
+      "fees-breakdown.html",
+      "Contacto"
+    ],
+    "about-us.html": [
+      "Achieved national accreditation for our commitment to innovative early childhood education and outstanding learning environments.",
+      "School",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Engaging activities to promote physical health and team work development.",
+      "Contacto",
+      "Expanded to two new location, growing our community to serve over 150 children across the region, introducing a specialized creative curriculum.",
+      "Our Beginning",
+      "Launched our state-of-the-art learning facilities, incorporating cutting-edge technology to enhance interactive learning for over 300 children.",
+      "With 12 years of experience in the field of education, Sarah leads our teaching team.",
+      "Our mission is to nurture young minds in a  joyful, and stimulating environment where every child is empowered to explore, and grow."
+    ],
+    "blog/building-bright-futures-the-lifelong-benefits-of-early-childhood-education.html": [
+      "Explorar Programas",
+      "building-bright-futures-the-lifelong-benefits-of-early-childhood-education.html",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.",
+      "Blogs",
+      "Contacto"
+    ],
+    "blog/preparing-for-success-how-to-help-your-child-thrive-in-their-first-year-of-kindergarten.html": [
+      "Explorar Programas",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Preparing for Success: How to Help Your Child Thrive in Their First Year of Jardín de Infantes - Growy",
+      "preparing-for-success-how-to-help-your-child-thrive-in-their-first-year-of-kindergarten.html",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.",
+      "Blogs"
+    ],
+    "blog/snack-time-fun-time-healthy-snack-ideas-to-fuel-your-child-s-day.html": [
+      "Explorar Programas",
+      "Snack Time, Fun Time: Healthy Snack Ideas to Fuel Your Child",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.",
+      "Blogs",
+      "Contacto"
+    ],
+    "blog/nurturing-young-minds-the-role-of-play-in-early-childhood-development.html": [
+      "Explorar Programas",
+      "Nurturing Young Minds: The Role of Play in Early Childhood Development - Growy",
+      "Your Child’s New Journey?",
+      "Every moment in your child’s early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.",
+      "Programas",
+      "Reservar una Visita",
+      "Every moment in your child’s early years are crucial for their growth and development.",
+      "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.",
+      "Blogs",
+      "Contacto"
+    ]
+  },
+  "summary": {
+    "js_files": 10,
+    "html_files": 16,
+    "total_js_strings": 69,
+    "total_html_strings": 160
+  }
+}

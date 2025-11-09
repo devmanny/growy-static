@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+
+# Diccionario COMPLETO de traducciones EN -> ES
+COMPLETE_TRANSLATIONS = {
+    # Headers y Títulos principales
+    "Your Child's New Journey?": "¿Listo para Comenzar el Nuevo Viaje de tu Hijo?",
+    "Explorar Programas": "Explorar Programas",  # Ya traducido
+
+    # CTAs y Botones
+    "Programs": "Programas",
+    "Book A Tour": "Reservar una Visita",
+    "Book a Tour": "Reservar una Visita",
+    "Reservar una Visita": "Reservar una Visita",  # Ya traducido
+    "Contact": "Contacto",
+    "Contacto": "Contacto",  # Ya traducido
+    "Read more": "Leer más",
+    "Subscribe": "Suscribirse",
+    "Download": "Descargar",
+    "Blogs": "Blog",
+
+    # Navegación
+    "About Us": "Sobre Nosotros",
+    "Admission": "Admisión",
+    "Gallery": "Galería",
+    "Testimonials": "Testimonios",
+    "Privacy Policy": "Política de Privacidad",
+    "Parent Resources": "Recursos para Padres",
+    "Fees Breakdown": "Desglose de Tarifas",
+
+    # Frases largas comunes
+    "Every moment in your child's early years is crucial. Our programs are designed to inspire curiosity, and build essential skills that will last a lifetime.":
+        "Cada momento en los primeros años de tu hijo es crucial. Nuestros programas están diseñados para inspirar curiosidad y desarrollar habilidades esenciales que durarán toda la vida.",
+
+    "Every moment in your child's early years are crucial for their growth and development.":
+        "Cada momento en los primeros años de tu hijo es crucial para su crecimiento y desarrollo.",
+
+    "Growy offers a nurturing and creative learning environment for young children, fostering growth, exploration, and early education.":
+        "Growy ofrece un entorno de aprendizaje nutritivo y creativo para niños pequeños, fomentando el crecimiento, la exploración y la educación temprana.",
+
+    # School y educación
+    "School": "Escuela",
+    "School Calendar": "Calendario Escolar",
+    "Calendario Escolar": "Calendario Escolar",  # Ya traducido
+    "School Card": "Tarjeta Escolar",
+    "School Drop": "Entrada a la Escuela",
+
+    # Programs
+    "Program Fees": "Tarifas del Programa",
+    "Program Offerings": "Ofertas del Programa",
+    "Pre - School Program": "Programa Preescolar",
+    "Jardín de Infantes Program": "Programa Jardín de Infantes",
+
+    # Resources
+    "Parent Handbook": "Manual para Padres",
+    "Weekly Meal Plan": "Plan de Comidas Semanal",
+    "Our Newsletter": "Nuestro Boletín",
+    "Health & Safety Guidelines": "Pautas de Salud y Seguridad",
+
+    # Gallery
+    "Video Gallery": "Galería de Videos",
+    "Image Gallery": "Galería de Imágenes",
+    "Video Testimonials": "Testimonios en Video",
+    "Blog Content": "Contenido del Blog",
+
+    # Admission
+    "After receiving your application, we schedule a counselling session to discuss your child's unique requirements, learning style, and how our programs can support their growth in a nurturing environment.":
+        "Después de recibir tu solicitud, programamos una sesión de orientación para discutir las necesidades únicas de tu hijo, su estilo de aprendizaje y cómo nuestros programas pueden apoyar su crecimiento en un ambiente nutritivo.",
+
+    "El primer paso en nuestro proceso de admisión es contactarnos. Ya sea por teléfono, correo electrónico o visita en persona, brindamos toda la información esencial sobre nuestro jardín infantil y sus programas.":
+        "El primer paso en nuestro proceso de admisión es contactarnos. Ya sea por teléfono, correo electrónico o visita en persona, brindamos toda la información esencial sobre nuestro jardín infantil y sus programas.",  # Ya en español
+
+    # About Us
+    "Our Beginning": "Nuestro Comienzo",
+    "Our mission is to nurture young minds in a  joyful, and stimulating environment where every child is empowered to explore, and grow.":
+        "Nuestra misión es nutrir mentes jóvenes en un ambiente alegre y estimulante donde cada niño está empoderado para explorar y crecer.",
+
+    "With 12 years of experience in the field of education, Sarah leads our teaching team.":
+        "Con 12 años de experiencia en el campo de la educación, Sarah lidera nuestro equipo docente.",
+
+    "Achieved national accreditation for our commitment to innovative early childhood education and outstanding learning environments.":
+        "Logramos acreditación nacional por nuestro compromiso con la educación infantil innovadora y ambientes de aprendizaje excepcionales.",
+
+    "Expanded to two new location, growing our community to serve over 150 children across the region, introducing a specialized creative curriculum.":
+        "Expandimos a dos nuevas ubicaciones, creciendo nuestra comunidad para servir a más de 150 niños en toda la región, introduciendo un currículo creativo especializado.",
+
+    "Launched our state-of-the-art learning facilities, incorporating cutting-edge technology to enhance interactive learning for over 300 children.":
+        "Lanzamos nuestras instalaciones de aprendizaje de última generación, incorporando tecnología de punta para mejorar el aprendizaje interactivo para más de 300 niños.",
+
+    # Programs - Activities
+    "Creative & Active Learning Classes": "Clases de Aprendizaje Creativo y Activo",
+    "Strengthen friendships with games.": "Fortalece amistades con juegos.",
+    "Sensory play activities to stimulate curiosity.": "Actividades de juego sensorial para estimular la curiosidad.",
+    "Boost your energy and feel great with fun": "Aumenta tu energía y siéntete genial con diversión",
+    "Early social interaction through group play and collaborative activities.": "Interacción social temprana a través de juego en grupo y actividades colaborativas.",
+    "Engaging activities to promote physical health and team work development.": "Actividades atractivas para promover la salud física y el desarrollo del trabajo en equipo.",
+    "Stimulating sensory activities to foster curiosity and exploration.": "Actividades sensoriales estimulantes para fomentar la curiosidad y la exploración.",
+
+    # Parent Resources
+    "Stay informed about all of our school's policies, procedures, and guidelines with our comprehensive Parent Handbook.":
+        "Mantente informado sobre todas las políticas, procedimientos y pautas de nuestra escuela con nuestro Manual para Padres integral.",
+
+    "Check out our nutritious meal plan to see what your child will be eating at school this week.":
+        "Consulta nuestro plan de comidas nutritivas para ver qué comerá tu hijo en la escuela esta semana.",
+
+    "Stay up to date with all important dates, events, and holidays throughout the school year.":
+        "Mantente al día con todas las fechas importantes, eventos y días festivos durante el año escolar.",
+
+    "Learn more about the steps we take to ensure a safe and healthy environment for your child.":
+        "Aprende más sobre los pasos que tomamos para asegurar un ambiente seguro y saludable para tu hijo.",
+
+    "Caterpillar-themed crafts": "Manualidades con tema de oruga",
+    "Sharing and storytelling": "Compartir y contar historias",
+
+    # Contact
+    "hello@kinderly.com": "hola@growy.com",
+    "Krakow, Poland": "Bogotá, Colombia",
+    "admissions@nyc.edu": "admisiones@growy.com",
+    "Growy School !!": "¡Escuela Growy!",
+
+    # Blog
+    "The Little Learners Jardín de Infantes, play is more than just a fun activity—it's a key element of learning. Through play, children develop critical thinking, social skills, and creativity. Discover how we incorporate purposeful play into our curriculum to help young minds grow and flourish.":
+        "En Growy Jardín de Infantes, el juego es más que una actividad divertida: es un elemento clave del aprendizaje. A través del juego, los niños desarrollan pensamiento crítico, habilidades sociales y creatividad. Descubre cómo incorporamos el juego con propósito en nuestro currículo para ayudar a las mentes jóvenes a crecer y florecer.",
+
+    "Building Bright Futures: The Lifelong Benefits of Early Childhood Education":
+        "Construyendo Futuros Brillantes: Los Beneficios de por Vida de la Educación Infantil Temprana",
+
+    "Nurturing Young Minds: The Role of Play in Early Childhood Development - Growy":
+        "Nutriendo Mentes Jóvenes: El Rol del Juego en el Desarrollo Infantil Temprano - Growy",
+
+    "Preparing for Success: How to Help Your Child Thrive in Their First Year of Jardín de Infantes - Growy":
+        "Preparándose para el Éxito: Cómo Ayudar a tu Hijo a Prosperar en su Primer Año de Jardín de Infantes - Growy",
+
+    "Snack Time, Fun Time: Healthy Snack Ideas to Fuel Your Child":
+        "Hora de la Merienda, Hora Divertida: Ideas de Meriendas Saludables para Alimentar a tu Hijo",
+
+    # Privacy Policy
+    "We do not sell personal information to third parties. However, we may share information in the following cases:":
+        "No vendemos información personal a terceros. Sin embargo, podemos compartir información en los siguientes casos:",
+
+    "Name, address, contact details, employment records, educational qualifications, and criminal background checks (if required by law).":
+        "Nombre, dirección, datos de contacto, registros laborales, calificaciones educativas y verificaciones de antecedentes penales (si lo requiere la ley).",
+
+    "To deliver and improve our educational programs and services.":
+        "Para brindar y mejorar nuestros programas y servicios educativos.",
+
+    "3. Sharing of Information": "3. Compartir Información",
+
+    "We use the information we collect for various purposes, including:":
+        "Usamos la información que recopilamos para varios propósitos, incluyendo:",
+
+    "Information about how our website, apps, or digital platforms are accessed and used. This includes IP addresses, browser types, device information, and usage patterns (cookies).":
+        "Información sobre cómo se accede y usa nuestro sitio web, aplicaciones o plataformas digitales. Esto incluye direcciones IP, tipos de navegador, información del dispositivo y patrones de uso (cookies).",
+
+    "Providing Educational Services:": "Proveer Servicios Educativos:",
+
+    "We take appropriate administrative, technical, and physical safeguards to protect the personal information we collect. This includes encryption, firewalls, secure servers, and strict access controls.":
+        "Tomamos medidas administrativas, técnicas y físicas apropiadas para proteger la información personal que recopilamos. Esto incluye encriptación, firewalls, servidores seguros y controles de acceso estrictos.",
+
+    "To protect the safety of students, staff, or others in emergency situations.":
+        "Para proteger la seguridad de estudiantes, personal u otros en situaciones de emergencia.",
+
+    # Form
+    "Form Submit Button": "Botón de Enviar Formulario",
+    "Email Address": "Dirección de Correo Electrónico",
+}
+
+# Guardar diccionario
+import json
+
+with open('translation-dictionary.json', 'w', encoding='utf-8') as f:
+    json.dump(COMPLETE_TRANSLATIONS, f, indent=2, ensure_ascii=False)
+
+print("="*70)
+print("DICCIONARIO DE TRADUCCIONES COMPLETO")
+print("="*70)
+print(f"\nTotal de traducciones: {len(COMPLETE_TRANSLATIONS)}")
+print("\n✓ Diccionario guardado en: translation-dictionary.json")
+print("\nEjemplos:")
+for i, (eng, esp) in enumerate(list(COMPLETE_TRANSLATIONS.items())[:5]):
+    print(f"\n{i+1}. EN: {eng[:60]}...")
+    print(f"   ES: {esp[:60]}...")
