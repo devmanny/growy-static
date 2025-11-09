@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda tu Diagnóstico Gratuito - Growy Academy</title>
+    <meta name="description" content="Agenda una evaluación gratuita para tu hijo. Sin compromiso, conoce cómo podemos ayudarlo.">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/growy-logo.svg" type="image/svg+xml">
+
+    <!-- Calendly CSS -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+    <!-- Estilos -->
+    <style>
+        :root {
+            --growy-green: #00D2E0;
+            --growy-green-dark: #00A8B5;
+            --growy-yellow: #FFB649;
+            --growy-pink: #FF3B8F;
+            --growy-dark: #081646;
+            --growy-light: #F5F5F5;
+            --growy-white: #FFFFFF;
+            --shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--growy-dark);
+            line-height: 1.6;
+            background: linear-gradient(135deg, rgba(0,210,224,0.05) 0%, rgba(255,182,73,0.05) 100%);
+        }
+
+        /* HEADER */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            padding: 1rem 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            height: 45px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--growy-green);
+            text-decoration: none;
+        }
+
+        .back-link {
+            color: var(--growy-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: var(--growy-green);
+        }
+
+        /* MAIN CONTENT */
+        .main-content {
+            padding: 3rem 0;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            color: var(--growy-dark);
+            margin-bottom: 1rem;
+        }
+
+        .page-header p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .booking-section {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: var(--shadow);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Info Cards */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .info-card {
+            background: var(--growy-light);
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .info-card:hover {
+            border-color: var(--growy-green);
+            transform: translateY(-3px);
+        }
+
+        .info-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-card h3 {
+            color: var(--growy-green);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .info-card p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Calendly Container */
+        .calendly-inline-widget {
+            min-width: 320px;
+            height: 700px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Alternative Contact */
+        .alternative-contact {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(0,0,0,0.1);
+        }
+
+        .alternative-contact h3 {
+            color: var(--growy-dark);
+            margin-bottom: 1rem;
+        }
+
+        .contact-options {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(37,211,102,0.3);
+        }
+
+        .email-btn {
+            background: var(--growy-green);
+            color: white;
+        }
+
+        .email-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,210,224,0.3);
+        }
+
+        .phone-btn {
+            background: white;
+            color: var(--growy-dark);
+            border: 2px solid var(--growy-dark);
+        }
+
+        .phone-btn:hover {
+            background: var(--growy-dark);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            max-width: 800px;
+            margin: 3rem auto 0;
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: var(--growy-dark);
+        }
+
+        .faq-item {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-item h3 {
+            color: var(--growy-green);
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .faq-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .calendly-inline-widget {
+                height: 600px;
+            }
+
+            .contact-options {
+                flex-direction: column;
+            }
+
+            .contact-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index-nuevo.html" class="logo">🌱 Growy</a>
+                <a href="index-nuevo.html" class="back-link">← Volver al inicio</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <h1>Agenda tu Diagnóstico Gratuito 📅</h1>
+                <p>El primer paso para transformar el aprendizaje de tu hijo. Sin compromiso, 100% personalizado.</p>
+            </div>
+
+            <!-- Info Cards -->
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="icon">⏱️</div>
+                    <h3>Duración</h3>
+                    <p>45 minutos de evaluación completa</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">🎯</div>
+                    <h3>Personalizado</h3>
+                    <p>Enfocado en las necesidades de tu hijo</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">💚</div>
+                    <h3>100% Gratis</h3>
+                    <p>Sin costo ni compromiso alguno</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="icon">👩‍🏫</div>
+                    <h3>Especialistas</h3>
+                    <p>Con certificación en educación especial</p>
+                </div>
+            </div>
+
+            <!-- Calendly Booking -->
+            <div class="booking-section">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--growy-dark);">
+                    Elige tu horario preferido 👇
+                </h2>
+
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget"
+                     data-url="https://calendly.com/TU_USUARIO/diagnostico-growy?hide_gdpr_banner=1&primary_color=00d2e0"
+                     style="min-width:320px;height:700px;">
+                </div>
+                <!-- Calendly inline widget end -->
+
+                <!-- Alternative Contact -->
+                <div class="alternative-contact">
+                    <h3>¿Prefieres otro método? Contáctanos directamente:</h3>
+
+                    <div class="contact-options">
+                        <a href="https://wa.me/523343690524?text=Hola,%20quiero%20agendar%20un%20diagnóstico%20para%20mi%20hijo"
+                           class="contact-btn whatsapp-btn" target="_blank">
+                            💬 WhatsApp
+                        </a>
+
+                        <a href="tel:+523343690524" class="contact-btn phone-btn">
+                            📱 33 4369 0524
+                        </a>
+
+                        <a href="mailto:zahira.romo8@gmail.com?subject=Diagnóstico%20Growy&body=Hola,%20me%20gustaría%20agendar%20un%20diagnóstico%20para%20mi%20hijo."
+                           class="contact-btn email-btn">
+                            ✉️ Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2>Preguntas Frecuentes</h2>
+
+                <div class="faq-item">
+                    <h3>¿Qué incluye el diagnóstico gratuito?</h3>
+                    <p>Una evaluación completa de las habilidades de tu hijo, identificación de áreas de oportunidad, y un plan personalizado de apoyo. Todo sin costo.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Debo llevar algo a la cita?</h3>
+                    <p>Solo trae a tu hijo y, si tienes, reportes escolares o evaluaciones previas. Nosotros proporcionamos todos los materiales necesarios.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Cuánto tiempo toma ver resultados?</h3>
+                    <p>Cada niño es único, pero la mayoría de las familias reportan cambios positivos en las primeras 4-6 semanas de acompañamiento.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Dónde se realiza la evaluación?</h3>
+                    <p>En nuestro espacio en Brasilia 2876, Local 18, Colomos Providencia, Guadalajara. También ofrecemos evaluaciones a domicilio (consultar disponibilidad).</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>¿Y si tengo que cancelar o reprogramar?</h3>
+                    <p>Sin problema. Puedes cancelar o reprogramar con al menos 24 horas de anticipación. Tu tranquilidad es importante para nosotros.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Calendly JavaScript -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+    <!-- Analytics -->
+    <script>
+        // Track cuando alguien llega a la página de agendar
+        console.log('Página de Agendar vista');
+
+        // Aquí conectarás Google Analytics después:
+        // gtag('event', 'page_view', { page_title: 'Agendar' });
+    </script>
+</body>
+</html>
